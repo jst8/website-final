@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<!-- DEVELOPER: Javier Tabar, IS117-004, Spring 2021 -->
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>My Piano Bar</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <link rel="shortcut icon" href="media/new-tumblr-white-music-logo.png">
+    <link rel="stylesheet" href="main6.css">
+</head>
+<body style="background-color:#ccffff">
+<header>
+    <img src="media/new-tumblr-white-music-logo.png" alt="80">
+    <h2>My Piano Bar</h2>
+    <p>Introduction to Argentinian Rock</p>
+
+</header>
+<nav class="navbar navbar-expand-md navbar-light bg-light sticky-top">
+    <button class="navbar-toggler" data-toggle="collapse" data-target="#collapse_target"><span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="collapse_target">
+
+
+        <ul class="navbar-nav navbar-center">
+            <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+            <li class="nav-item dropdown"><a class="nav-link dropdown-toggle" data-toggle="dropdown" data-target="dropdown_target" href="musicvideos.html">Music Videos<span class="caret"></span></a>
+                <div class="dropdown-menu" aria-labelledby="dropdown_target">
+                    <ul class="navbar-nav">
+                        <a class="dropdown-item" href="musicvideos.html">Music Videos&nbsp;</a>
+                        <a class="dropdown-item" href="mtv.html">MTV Unplugged Sessions&nbsp;</a>
+                        <a class="dropdown-item" href="myfav.html">My Favorite Bands or Artists&nbsp;</a>
+                    </ul>
+                </div>
+            </li>
+            <li class="nav-item"><a class="nav-link" href="howto.html">How to Support</a></li>
+            <li class="nav-item"><a class="nav-link" href="contact.html">Contact Info</a></li>
+        </ul>
+    </div>
+</nav>
+<main>
+    <h2>Contact info </h2>
+    <p>If you want to share some music or have any doubts please feel free to contact me. I am always happy to discover some new music. Also, feel free to share any thoughts on the website and how it can be improved. </p>
+    <p>You can contact me through email at jst8@njit.edu</p>
+    <p>    By phone: 1-888-888-8888</p>
+    <p>    Or through the text entry box below</p>
+    <p>    Thank you!</p>
+
+    <div class="container">
+        <form action="action_page.php">
+
+            <label for="fname">First Name</label>
+            <input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+            <label for="lname">Last Name</label>
+            <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+            <label for="email">Email</label>
+            <input type="text" id="email" name="email" placeholder="Your email..">
+
+            <label for="subject">Subject</label>
+            <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+
+            <input type="submit" value="Submit">
+
+        </form>
+    </div>
+</main>
+<footer>
+    <p class="sticky-bottom">&copy;Javier Tabar, April 22, 2021 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Terms of Service &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Privacy Statement </p>
+</footer>
+</body>
+</html>
